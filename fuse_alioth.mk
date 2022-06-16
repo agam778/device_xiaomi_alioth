@@ -17,6 +17,9 @@ $(call inherit-product, device/xiaomi/alioth/device.mk)
 # Gapps
 WITH_GAPPS := true
 
+# Relax library check
+RELAX_USES_LIBRARY_CHECK := true
+
 PRODUCT_NAME := fuse_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
