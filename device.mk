@@ -43,5 +43,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # Inherit Lawnchair
 $(call inherit-product, vendor/lawnchair/lawnchair.mk)
 
+# Inherit GcamBSG
+$(call inherit-product, vendor/GcamBSG/GcamBSG-vendor.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
