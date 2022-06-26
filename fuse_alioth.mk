@@ -31,4 +31,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="redfin-user 12 S3B1.220318.003 8372304 release-keys"
 
-BUILD_FINGERPRINT := POCO/alioth_global/alioth:12/RKQ1.200826.002/V13.0.3.0.SKHMIXM:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:12/S3B1.220318.003/8372304:user/release-keys
