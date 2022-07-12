@@ -40,8 +40,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Inherit Lawnchair
-$(call inherit-product, vendor/lawnchair/lawnchair.mk)
+# Inherit PixelLauncherM
+$(call inherit-product, vendor/PixelLauncherM/PixelLauncherM.mk)
 
 # Inherit GcamBSG
 $(call inherit-product, vendor/GcamBSG/GcamBSG-vendor.mk)
