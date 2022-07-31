@@ -7,6 +7,9 @@
 # A/B
 TARGET_IS_VAB := true
 
+# Bootanim Resolution
+TARGET_BOOT_ANIMATION_RES = 1080
+
 # Audio
 TARGET_ENABLE_AUDIO_ULL := true
 
