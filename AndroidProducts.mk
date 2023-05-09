@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_alioth.mk
+    $(LOCAL_DIR)/yaap_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_alioth-user \
-    superior_alioth-userdebug \
-    superior_alioth-eng
+    yaap_alioth-user \
+    yaap_alioth-userdebug \
+    yaap_alioth-eng
